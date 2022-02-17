@@ -2,7 +2,10 @@
 
 #to Check the RDP PORT
 
+```
 Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber"
+
+```
 
 
 To Change the RDP Port and allow in firewall
